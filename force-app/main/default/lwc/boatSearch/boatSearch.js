@@ -5,7 +5,9 @@ import { LightningElement } from "lwc";
     isLoading = false;
     
     // Handles loading event
-    handleLoading() { }
+    handleLoading() { 
+      //new code
+    }
     
     // Handles done loading event
     handleDoneLoading() { }
