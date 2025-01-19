@@ -8,7 +8,9 @@ import { LightningElement } from "lwc";
     handleLoading() { }
     
     // Handles done loading event
-    handleDoneLoading() { }
+    handleDoneLoading() { 
+      // this.isLoading = false;
+    }
     
     // Handles search boat event
     // This custom event comes from the form
